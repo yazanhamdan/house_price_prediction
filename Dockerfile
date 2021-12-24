@@ -3,7 +3,7 @@ FROM python:3.9-slim-buster
 WORKDIR /app
 
 # Install requirments
-COPY app/requirements.txt requirements.txt
+COPY ./requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 # Copy our source code
