@@ -86,7 +86,7 @@ PREDICTION_SCHEMA = {
             'type': 'string',
         },
         'HeatingQC': {
-            'type': 'number',
+            'type': 'string',
         },
         'CentralAir': {
             'type': 'string',
@@ -134,7 +134,7 @@ PREDICTION_SCHEMA = {
             'type': 'number',
         },
         'GarageFinish': {
-            'type': 'number',
+            'type': 'string',
         },
         'GarageCars': {
             'type': 'number',
