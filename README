@@ -1,0 +1,31 @@
+# Flask Base Code 
+
+### Installing and running
+
+In order to use this project, you will need to clone this repository, have docker and docker-compose 1.75 installed, and run the following:
+  - `docker-compose up --build`
+
+The application should be running now, congrats!
+
+
+
+### API Documentation
+
+- End point : `/api/v1/predict`
+- Response: {"predicted_value", "status"}
+- A POST Request should contains in the `raw` in the `body` a `JSON`
+
+
+<br>
+<br>
+
+## General Notes
+- It's recommended to use `vscode` as your main code editor
+
+- It's recommended to follow `PEP8` standards
+
+- It's recommended to install `eslinteger` extension to your `vscode`
+
+- It's recommended to install `Python Docstring Generator` extension to your `vscode`
+
+- Your application will run on `port 5000`
